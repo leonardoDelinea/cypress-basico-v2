@@ -203,7 +203,7 @@ describe('Central de Atendimento ao Cliente TAT', function() {
       cy.contains('Talking About Testing').should('be.visible')
     })
 
-    it.only('Teste 25- Testar a simulação de viewport', function(){
+    it('Teste 25- Testar a simulação de viewport', function(){
       cy.get('#privacy a').should('have.attr', 'target', '_blank')
     })
 
